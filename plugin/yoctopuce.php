@@ -7,7 +7,7 @@ require_once 'type/Default.class.php';
 require_once 'inc/collectd.inc.php';
 
 ## LAYOUT
-# yoctopuce-MODULENAME_SERIAL/gauge-FUNCTION.rrd
+# yoctopuce-MODULENAME_SERIAL/yoctopuce-FUNCTION.rrd
 
 $obj = new Type_Default($CONFIG);
 
