@@ -10,7 +10,7 @@ require_once 'inc/collectd.inc.php';
 # solr-CORE/solr_origin-ORIGIN.rrd
 
 $obj = new Type_GenericStacked($CONFIG);
-$obj->rrd_title = sprintf('Solr Content by Origin (%s)', $obj->args['pinstance']);
+$obj->rrd_title = sprintf('Solr (%s)', $obj->args['pinstance']);
 $obj->rrd_vertical = '#';
 $obj->rrd_format = '%5.1lf';
 
